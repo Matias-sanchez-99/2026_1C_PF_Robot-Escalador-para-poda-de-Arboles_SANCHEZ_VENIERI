@@ -63,15 +63,15 @@ Donde:
 
 ---
 
-# [TÍTULO DEL PROYECTO]
+# Robot escalador para poda de árboles
 
-**Tipo:** [PPS | PF]  
-**Año:** [2026] — **Cuatrimestre:** [1C | 2C]  
+**Tipo:** PF 
+**Año:** [2026] — **Cuatrimestre:** 1C 
 
 **Carrera:** Ingeniería Mecatrónica  
-**Materia / Curso:** [NOMBRE_DE_LA_MATERIA]  
+**Materia / Curso:** PROYECTO_FINAL_MECATRONICA 
 **Docente / Cátedra:** [NOMBRE_DOCENTE]  
-**Autor/es:** [APELLIDO, Nombre — Legajo] · [APELLIDO, Nombre — Legajo]
+**Autor/es:** SANCHEZ, Matias — Legajo  · VENIERI, Gabriel— Legajo
 
 ---
 
@@ -81,15 +81,15 @@ Donde:
 [Describir contexto general y necesidad.]
 
 **Problema a resolver:**  
-[Describir el problema de forma concreta.]
+Este proyecto busca eliminar la necesidad de un trabajador de tener que escalar un árbol para su poda, ya sea por medio de escaleras o un sistema de andamios.
 
 **Objetivo general:**  
-[Qué logra el sistema.]
+Ofrecer una solución automatizada donde solo con colocar el robot en la base y ordenarle una acción mediante una interfaz gráfica, el mismo procederá a escalar el árbol y verificar si encuentra ramas que podar, si detecta alguna simplemente la cortara, si no encuentra ramas procederá a rotar alrededor del tronco hasta que verifique que en una vuelta completa no encontró ramas a una determinada altura, acto seguido seguirá escalando y repetirá el procedimiento anterior.
 
 **Objetivos específicos (opcional):**
-- [Objetivo 1]
-- [Objetivo 2]
-- [Objetivo 3]
+- Lograr que se le pueda indicar al robot una altura determinada como límite de escalada (poda parcial)
+- Lograr que el robot pueda determinar el límite de escalado de forma automática en función del grosor del tronco conforme va subiendo.
+- Permitir un 2do modo de operación en tierra para segmentar ramas de gran tamaño automáticamente para cumplir con normativas municipales de largos permitidos para el descarte de ramas.
 
 ---
 
@@ -111,7 +111,7 @@ Donde:
 ## Brief
 
 **One-liner (1 frase):**  
-[Qué hace el proyecto + para quién + beneficio principal.]
+Poda de ramas de árboles para facilitar la labor del podador y permitir la poda en zonas de difícil acceso.
 
 **Elevator pitch (30 segundos):**  
 Este proyecto **[nombre del proyecto]** (tipo **[PPS/PF]**, **[AÑO] [CUATRIMESTRE]**) resuelve **[problema]** mediante **[solución]**.  
@@ -246,8 +246,8 @@ Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/medic
 ---
 
 ## Autor
-**[APELLIDO, Nombre]** — [Legajo]  
-Contacto (opcional): [mail / LinkedIn]
+**SANCHEZ, Matias Alejandro** — [Legajo]  
+Contacto (opcional): matyas-99@hotmail.com / LinkedIn
 
 ---
 
@@ -260,4 +260,4 @@ Contacto (opcional): [mail / LinkedIn]
 
 Usar este texto (o similar) en el campo **About** de GitHub:
 
-**[PPS | PF] — [Proyecto] — FI-UNLZ — [2026] [1C|2C] — [Apellido1, Apellido2]**
+**PF — [Proyecto] — FI-UNLZ — 2026 1C — Sanchez, Veneri**
