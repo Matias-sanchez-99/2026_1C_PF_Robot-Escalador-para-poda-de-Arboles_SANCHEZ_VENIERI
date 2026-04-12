@@ -12,7 +12,7 @@
 
 **Carrera:** Ingeniería Mecatrónica  
 **Materia / Curso:** PROYECTO_FINAL_MECATRONICA 
-**Docente / Cátedra:** [NOMBRE_DOCENTE]  
+**Docente / Cátedra:** Ezequiel Blanca, Cristian Lukaszewicz, Juan Szombach  
 **Autor/es:** SANCHEZ, Matias — Legajo  · VENIERI, Gabriel— Legajo
 
 ---
@@ -20,18 +20,20 @@
 ## Introducción / Objetivo
 
 **Contexto (2–4 líneas):**  
-[Describir contexto general y necesidad.]
+La idea surge de la necesidad de poder hacer poda de árboles de forma segura, principalmente, ya que consideramos que puede ser un trabajo riesgoso ya que se desarrolla en la altura y no siempre con los elementos de seguridad minimnos y necesarios
 
 **Problema a resolver:**  
-Este proyecto busca eliminar la necesidad de un trabajador de tener que escalar un árbol para su poda, ya sea por medio de escaleras o un sistema de andamios.
+Este proyecto busca eliminar la necesidad de tener que usar una persona para trabajar en la altura, con todo lo que esto conlleva en terminos de seguridad.
 
 **Objetivo general:**  
-Ofrecer una solución automatizada donde solo con colocar el robot en la base y ordenarle una acción mediante una interfaz gráfica, el mismo procederá a escalar el árbol y verificar si encuentra ramas que podar, si detecta alguna simplemente la cortara, si no encuentra ramas procederá a rotar alrededor del tronco hasta que verifique que en una vuelta completa no encontró ramas a una determinada altura, acto seguido seguirá escalando y repetirá el procedimiento anterior.
+Ofrecer una solución automatizada y autónoma donde solo con colocar el robot en la base y ordenarle una acción mediante una interfaz gráfica, el mismo procederá a escalar el árbol y verificar si encuentra ramas que podar, si detecta alguna simplemente la cortara, si no encuentra ramas procederá a rotar alrededor del tronco hasta que verifique que en una vuelta completa no encontró ramas a una determinada altura, acto seguido seguirá escalando y repetirá el procedimiento anterior.
 
 **Objetivos específicos (opcional):**
+- Distinguir rama de otros elementos y de esta manera proceder a podar  de forma segura
+- Escalado y poda autónoma
 - Lograr que se le pueda indicar al robot una altura determinada como límite de escalada (poda parcial)
 - Lograr que el robot pueda determinar el límite de escalado de forma automática en función del grosor del tronco conforme va subiendo.
-- Permitir un 2do modo de operación en tierra para segmentar ramas de gran tamaño automáticamente para cumplir con normativas municipales de largos permitidos para el descarte de ramas.
+- Sistema de seguridad que en caso de desprendimiento del robot del tronco que permita una parada súbita de la motosierra
 
 ---
 
@@ -53,11 +55,11 @@ Ofrecer una solución automatizada donde solo con colocar el robot en la base y 
 ## Brief
 
 **One-liner (1 frase):**  
-Poda de ramas de árboles para facilitar la labor del podador y permitir la poda en zonas de difícil acceso.
+Podar arboles y acceder a zonas dificiles sin la necesidad de una persona que este trabajando en altura.
 
 **Elevator pitch (30 segundos):**  
-Este proyecto **[nombre del proyecto]** (tipo **[PPS/PF]**, **[AÑO] [CUATRIMESTRE]**) resuelve **[problema]** mediante **[solución]**.  
-Está orientado a **[público objetivo]** y permite **[beneficio medible]**.  
+Este proyecto **[ROBOT PODADOR]** (tipo **[PF]**, **[2026] [1C]**) resuelve **[LA PODA]** mediante **[UN ROBOT AUTONOMO]**.  
+Está orientado a **[PUBLICO EN GENERAL]** y permite **[REDUCIR EL RIESGO DEL TRABAJO EN ALTURAA]**.  
 Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/mediciones/demo]**.
 
 ### Problema
@@ -188,8 +190,8 @@ Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/medic
 ---
 
 ## Autor
-**SANCHEZ, Matias Alejandro** — [Legajo]  
-Contacto (opcional): matyas-99@hotmail.com / LinkedIn
+**SANCHEZ, Matias Alejandro** — [Legajo], VENIERI, Mario Gabriel -   
+Contacto (opcional): matyas-99@hotmail.com / gabry_getage@hotmail.com
 
 ---
 
@@ -203,3 +205,4 @@ Contacto (opcional): matyas-99@hotmail.com / LinkedIn
 Usar este texto (o similar) en el campo **About** de GitHub:
 
 **PF — [Proyecto] — FI-UNLZ — 2026 1C — Sanchez, Veneri**
+
