@@ -53,7 +53,6 @@ Ofrecer una solución automatizada y autónoma donde solo con colocar el robot e
 
 ## Brief
 
-**One-liner (1 frase):**  
 Podar arboles y acceder a zonas dificiles sin la necesidad de una persona que este trabajando en altura.
 
 **Elevator pitch (30 segundos):**  
