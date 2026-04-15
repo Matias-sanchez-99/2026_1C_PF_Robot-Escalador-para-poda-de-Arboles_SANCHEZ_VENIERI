@@ -19,8 +19,7 @@
 
 ## Introducción / Objetivo
 
-**Contexto (2–4 líneas):**  
-La idea surge de la necesidad de poder hacer poda de árboles de forma segura, principalmente, ya que consideramos que puede ser un trabajo riesgoso ya que se desarrolla en la altura y no siempre con los elementos de seguridad minimnos y necesarios
+La idea surge de la necesidad de poder hacer poda de árboles de forma segura, principalmente, ya que consideramos que puede ser un trabajo riesgoso ya que se desarrolla en la altura y no siempre con los elementos de seguridad mínimnos y necesarios
 
 **Problema a resolver:**  
 Este proyecto busca eliminar la necesidad de tener que usar una persona para trabajar en la altura, con todo lo que esto conlleva en terminos de seguridad.
